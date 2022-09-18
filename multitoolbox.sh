@@ -690,7 +690,7 @@ pm2 save  > /dev/null 2>&1
 sudo rm -rf /home/$USER/watchdog  > /dev/null 2>&1
 
 echo -e "${ARROW} ${CYAN}Downloading...${NC}"
-cd && git clone https://github.com/abudfv/fluxnode-watchdog.git watchdog > /dev/null 2>&1
+cd && git clone https://github.com/cmonfreak/fluxnode-watchdog.git watchdog > /dev/null 2>&1
 echo -e "${ARROW} ${CYAN}Installing git hooks....${NC}"
 wget https://raw.githubusercontent.com/RunOnFlux/fluxnode-multitool/$ROOT_BRANCH/post-merge > /dev/null 2>&1
 mv post-merge /home/$USER/watchdog/.git/hooks/post-merge
